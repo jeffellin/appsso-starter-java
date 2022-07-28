@@ -31,6 +31,7 @@ public class WebSecurityConfig {
 								.anyRequest().authenticated()
 				)
 				// After a successful logout, redirect to /home.
+			        // cuz I said so
 				.logout().logoutSuccessHandler(oidcLogoutSuccessHandler()).logoutSuccessUrl("/home")
 				.and()
 				.oauth2Login(withDefaults())
