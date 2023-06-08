@@ -1,8 +1,7 @@
-site_name: 'tanzu java components'
+site_name: 'AppSSO Starter Java Components'
 
 nav:
-  - The Component: index.md
-  - Adding Documentation: add-docs.md
+  - AppSSO Starter Java App: index.md
 
 plugins:
   - techdocs-core
