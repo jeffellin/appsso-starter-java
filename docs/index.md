@@ -6,7 +6,7 @@ AppSSO provides APIs for curating and consuming a “Single Sign-On as a service
 
 At the core of AppSSO is the concept of an Authorization Server. Service Operators create those resources to provision running Authorization Servers, which are [OpenID Connect Providers](https://openid.net/specs/openid-connect-core-1_0.html). They issue [ID Tokens](https://openid.net/specs/openid-connect-core-1_0.html#IDToken) to Client applications, which contain identity information about the End-User (such as email, first name, last name, etc).
 
-![AppSSO Concepts](https://grateful-human.static.app/images/docs-appsso-architecture.png)
+![AppSSO Concepts](https://raw.githubusercontent.com/ciberkleid/tap-scavenger-hunt-public/main/images/tap-env/docs-appsso-architecture.png)
 
 AppSSO’s authorization server is based off of [Spring Authorization Server](https://github.com/spring-projects/spring-authorization-server).
 
